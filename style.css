@@ -11,14 +11,19 @@ main{
 main>div {
 	display: flex;
 	flex-direction: row;
-	text-align: center;
+	justify-content: center;
 	align-items: center;
 }
 
-p{
+.color>p{
+	display: inline;
 	margin: 0;
 	padding: 0;
-	flex: 1 1 0px;
+	transition: transform 2s;
+}
+
+.color>p:hover{
+	transform: rotate(360deg);
 }
 
 main>div:nth-child(1){
