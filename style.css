@@ -1,0 +1,43 @@
+
+body{
+    margin: 0;
+}
+
+main{
+	height:100vh;
+	display: flex;
+}
+
+main>div {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+	flex: 1 1 0px;
+}
+
+main>div:nth-child(1){
+    background-color: #0ff;
+	flex: 1 1 auto;
+}
+main>div:nth-child(2){
+    background-color: #0dd;
+	flex: 1 1 auto;
+}
+main>div:nth-child(3){
+    background-color: #0aa;
+	flex: 1 1 auto;
+}
+main>div:nth-child(4){
+    background-color: #088;
+	flex: 1 1 auto;
+}
+main>div:nth-child(5){
+    background-color: #066;
+	flex: 1 1 auto;
+}
